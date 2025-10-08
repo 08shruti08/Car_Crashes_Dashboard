@@ -10,6 +10,8 @@ st.set_page_config(page_title="🚗 Car Crashes Dashboard", layout="wide")
 # --- Load Data ---
 df = sns.load_dataset("car_crashes")
 
+st.sidebar.header("cc_home.py connected to cc2_dashboard.py")
+
 # --- Sidebar: Filters & Calculator ---
 st.sidebar.header("🔍 Filter Options")
 
